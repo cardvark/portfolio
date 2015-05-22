@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: LightGray;
+}
+
+div {
+  border: 1px solid Chocolate;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.navSection {
+	background-color: white;
+	width: 100%;
+	border-bottom: 1px solid LightGray;
+}
+
+.content {
+	margin: 0 auto;
+	min-width: 30rem;
+	max-width: 60rem;
+}
+
+.navSection .content {
+	color: #838994;
+	height: 4rem;
+}
+
+.activePage {
+	color: #4c5058;
+	font-weight: 600;
+}
+
+.navList {
+	list-style-type: none;
+	float: left;
+	margin-top: 1.3rem;
+}
+
+.navList li {
+	display: inline-block;
+	margin: 0 1rem;
+}
+
+.projectsSection {
+	background-image: url(../images/bamboo-grove.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.projectsSection .content {
+	height: 60rem;
+	width: 100%;
+}
+
+.footerSection .content {
+	height: 10rem;
+}
