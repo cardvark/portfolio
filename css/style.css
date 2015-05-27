@@ -38,15 +38,15 @@ body{
 	height: 4rem;
 }
 
-/* .navSection > .content > a:link, a:hover, a:visited, a:active {
+.navSection > .content > .navList > li > a:link, a:hover, a:visited, a:active {
   color: #838994;
-  font-family: 'Roboto', sans-serif;
+  height: 4rem;
   text-decoration: none;
 }
 
 .navSection .navList li a:hover {
   color: #333333;
-} */
+}
 
 
 .activePage {
@@ -80,7 +80,8 @@ body{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: flex-start;
-	padding: 2.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
 }
 
 .footerSection .content {
@@ -100,21 +101,34 @@ body{
 	opacity: 0.75;
 	color: white;
 	font-weight: 500;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 }
 
 #startupImage {
 	background-image: url(../images/startup-clone-image.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 120%;	
+	background-size: 120%;
+	display: block;
 	height: 100%;
 	width: 100%;
+	text-indent: -9999px;
 }
 
 .projectImage img {
 	width: 100%;
 	height: 100%;
+}
+
+#aboutMeImage {
+	background-image: url(../images/about-me-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120%;
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9999px;
 }
 
 .footerSection {
