@@ -62,10 +62,28 @@ body{
 }
 
 .projectsSection .content {
-	height: 60rem;
+	min-height: 60rem;
 	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .footerSection .content {
 	height: 10rem;
+}
+
+.projectImage, .projectText {
+	width: 25rem;
+	height: 20rem;
+	margin: 1.5rem;
+	margin-bottom: 0;
+}
+
+.projectText {
+	background-color: black;
+	opacity: 0.75;
+	color: white;
+	font-weight: 500;
 }
