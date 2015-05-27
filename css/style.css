@@ -38,6 +38,17 @@ body{
 	height: 4rem;
 }
 
+/* .navSection > .content > a:link, a:hover, a:visited, a:active {
+  color: #838994;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.navSection .navList li a:hover {
+  color: #333333;
+} */
+
+
 .activePage {
 	color: #4c5058;
 	font-weight: 600;
@@ -69,17 +80,19 @@ body{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: flex-start;
+	padding: 2.5rem;
 }
 
 .footerSection .content {
 	height: 10rem;
 }
 
-.projectImage, .projectText {
+.projectImage, .projectText {	
 	width: 25rem;
 	height: 20rem;
-	margin: 1.5rem;
-	padding-bottom: 1.5em;
+/* 	margin: 1.5rem; */
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .projectText {
@@ -87,4 +100,23 @@ body{
 	opacity: 0.75;
 	color: white;
 	font-weight: 500;
+	margin-bottom: 4rem;
+}
+
+#startupImage {
+	background-image: url(../images/startup-clone-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120%;	
+	height: 100%;
+	width: 100%;
+}
+
+.projectImage img {
+	width: 100%;
+	height: 100%;
+}
+
+.footerSection {
+	background-color: white;
 }
