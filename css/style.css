@@ -7,13 +7,13 @@ html {
   box-sizing: inherit;
 }
 
-body {
+/* body {
 	background-color: LightGray;
 }
 
 div {
   border: 1px solid Chocolate;
-}
+} */
 
 body{
 	margin: 0;
@@ -80,7 +80,7 @@ body{
 	justify-content: center;
 	align-content: flex-start;
 	padding-top: 2.5rem;
-	padding-bottom: 2.5rem;
+/* 	padding-bottom: 2.5rem; */
 }
 
 .footerSection .content {
@@ -131,5 +131,28 @@ body{
 }
 
 .footerSection {
-	background-color: white;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10rem;
+
+}
+
+
+.footerSection > .content > a:link, a:visited, a:active {
+  color: #838994;
+  height: 4rem;
+  text-decoration: none;
+}
+
+.footerSection > .content > a:hover {
+  color: black;
+  height: 4rem;
+  text-decoration: none;
+}
+
+.footerSection > .content {
+	padding: 3rem;
+	font-weight: 600;
+	font-size: 1.5em;
 }
