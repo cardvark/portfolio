@@ -38,8 +38,15 @@ body{
 	height: 4rem;
 }
 
-.activePage {
-	color: #4c5058;
+#activePage {
+/* 	color: #4c5058; */
+	font-weight: 600;
+}
+
+#activePage a:hover {
+	color: #838994;
+	height: 4rem;
+	text-decoration: none;
 	font-weight: 600;
 }
 
@@ -47,6 +54,7 @@ body{
   color: #838994;
   height: 4rem;
   text-decoration: none;
+  font-weight: 300;
 }
 
 .navSection .navList li a:hover {
