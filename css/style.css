@@ -38,6 +38,11 @@ body{
 	height: 4rem;
 }
 
+.activePage {
+	color: #4c5058;
+	font-weight: 600;
+}
+
 .navSection > .content > .navList > li > a:link, a:hover, a:visited, a:active {
   color: #838994;
   height: 4rem;
@@ -46,12 +51,6 @@ body{
 
 .navSection .navList li a:hover {
   color: #333333;
-}
-
-
-.activePage {
-	color: #4c5058;
-	font-weight: 600;
 }
 
 .navList {
