@@ -30,7 +30,7 @@ body{
 .content {
 	margin: 0 auto;
 	min-width: 30rem;
-	max-width: 60rem;
+	width: 90%;
 }
 
 .navSection .content {
@@ -96,7 +96,8 @@ body{
 }
 
 .projectImage, .projectText {	
-	width: 25rem;
+	width: 40%;
+	min-width: 25rem;
 	height: 20rem;
 /* 	margin: 1.5rem; */
 	margin-left: 1rem;
@@ -109,6 +110,11 @@ body{
 	color: white;
 	font-weight: 500;
 	margin-bottom: 2rem;
+}
+
+.projectText > p, h3 {
+	padding-left: 1.5rem;
+	padding-right: 1rem;
 }
 
 #startupImage {
